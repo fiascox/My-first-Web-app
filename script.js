@@ -52,11 +52,14 @@ function deleteItem() {
         return;
       }
     } else {
-      please.textContent = "Please select item";
-      please.style.color = "red";
+      string.textContent = "Please select Your Done item";
+      string.style.color = "red";
+      string.style.fontSize = "1em";
+      string.style.margin = "0";
+      string.style.marginTop = "7px";
       setTimeout(() => {
-        please.textContent = "";
-      }, 3000);
+        string.textContent = "";
+      }, 5000);
     }
   }
 }
