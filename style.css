@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+}
+
+#container {
+  margin: 3em auto;
+  width: 15%;
+  border: solid 20px dimgray;
+  height: 30em;
+  padding: 0 9em 9em 9em;
+  background-color: lightpink;
+}
+
+.my-controls {
+  margin: 2em 0em;
+  background-color: linen;
+  padding: 0em 5em 2em 5em;
+  width: 100%;
+  transform: translate(-75px);
+  border-radius: 30px;
+  border: 10px solid lightseagreen;
+}
+.my-controls h2 {
+  padding: 0em 0em 0em 0em;
+  transform: translate(-2em);
+  color: blue;
+}
+.my-controls > input {
+  margin: 0.5em 2em 0em 2em;
+  transform: translate(-2em);
+  height: 1em;
+  font-size: 1.2em;
+  width: 90%;
+  border: 5px solid dimgrey;
+  padding: 2px 2px 0px;
+  border-radius: 5px;
+}
+
+.my-controls button {
+  margin-top: 1.5em;
+  border-radius: 5px;
+  background: none;
+  box-shadow: none;
+  height: 2.5em;
+  background-color: lightsteelblue;
+  margin-right: 1.3em;
+  outline: black;
+  outline-offset: 20px;
+}
+
+.my-controls button:hover {
+  background-color: lightpink;
+}
+
+#list {
+  background-color: lightgrey;
+  margin: 2em 0em;
+  padding: 1em 5em 0.5em 5em;
+  width: 100%;
+  transform: translate(-75px);
+  border-radius: 30px;
+  border: 10px solid cyan;
+}
+
+#list li {
+  list-style: none;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: 10px solid whitesmoke;
+  border-radius: 10px;
+}
+
+#list label {
+  padding-left: 0.5em;
+  font-size: 1.2em;
+}
+#list .mycheck {
+  padding-top: 0.3em;
+}
+
+#list .virtual {
+  padding-top: 0.2em;
+  opacity: 1;
+}
